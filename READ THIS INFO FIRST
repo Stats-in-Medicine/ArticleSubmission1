@@ -1,6 +1,15 @@
 READ this Information First
-The R script is stored here as "R Main Script - Fleishman - Ver. 15"
-The description of the R input and output files is given in:  
-The following text file needs to be located at     .  LowKurts.txt
-The following raw file needs to be located at     .  LowKurts.txt
+
+The R script is stored on this website as "R Main Script - Fleishman - Ver. 15"
+
+The description of the R input and output files is given in:  "Input & Output Files"
+
+The text file "LowKurts.txt" needs to be located at:
+"C:/USERNAME/Statistics & Probability/Normal Distribution - Poss 2021 Paper/Tables of Constants & of LowKurts/LowKurts.txt"
+(Obviously, this location could be simplified in the R script as desired)
+
+The raw R file "TableofConstants" needs to be located at:
+"C:/USERNAME/Statistics & Probability/Normal Distribution - Poss 2021 Paper/Tables of Constants & of LowKurts/TableofConstants"
+(Obviously, this location could be simplified in the R script as desired)
+
 
