@@ -4,13 +4,14 @@ Please reach out to me with any questions.  My email is:  Lmpaul@sciencesupportc
 INPUT FILES
 FleishmanRead1.txt has the single value of the number of "cases" (experimental combinations) to be evaluated
 FleishmanRead2 has all other input variables.  As an example:
-# of samples  Meas. of Cen. Tendency  Replications  Sample Size    Skew    Excess Kurtosis  Var1  Var2  Mean1  Mean2    Distrib  DistParam 
+#samples    CentralTendency    Reps    SampleSize    Skew      ExcessKurtosis    Var1    Var2    Mean1    Mean2    Distrib    DistParam 
 
-    1	                1	                1000	       30	       0	         0         2	  2	   0	  0        1         1
+    1            3            1000        30            0            0             2        2        0        0        1        1
 
 where:
 # of Samples = 1 for a 2-Sample study; 0 for a 1-Sample study
-Measure of Central Tendency = 1 for median
+
+Measure of Central Tendency = 3 for median
 
 Distrib = 0 for generating "artificial distributions with the Skew & Kurtosis given; = 1 for LogNormal; = 2 for Exponential
 DistParam = Shape Parameter for the LogNormal; Rate Parameter for the Exponential
@@ -22,7 +23,6 @@ Note:  R expects the forward facing slant "/" rather than the backward facing sl
 OUTPUT FILES
 The False Alarm Rate ("FAR") of all 6  nonparametric bootstrap programs (Number of Samples (2) x Measure of Centraol Tendency (3)
 = 6) will be found at:  C:/Users/{Name of User]/Documents/FAR.txt".
-That is the file "FAR.txt" is used in each of the 6 tests.
 
 The t-Test and the Mann-Whitney-Wilcoxon tests are always performed and the results will be found at:
 C:/Users/{Name of User}/Documents/FAR.t.txt and
